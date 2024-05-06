@@ -1,8 +1,44 @@
-h1 {
-    color:darkolivegreen;
-    background-color: forestgreen;
+
+*{
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
-    color:brown
+    color:rgb(91, 60, 8);
+    background-color: forestgreen;
+}
+h2{
+    color:red;
+    background-color:coral;
+}
+/*article > p {
+    font-size: 25rem;
+}*/
+
+.article_p{
+    font-size: 1.1rem;
+}
+
+#footer_p {
+    color:yellow;
+    background-color: black;
+}
+
+ul{
+    background-color: bisque;
+}
+
+li{
+    color:dimgrey;
+    background-color: darkseagreen;
+}
+
+li:nth-child(2n){
+    background-color: rgb(215, 147, 29);
+}
+
+img {
+     /* max-width: 75vw; */
+    height: 10%;
 }
